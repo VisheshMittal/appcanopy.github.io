@@ -1098,6 +1098,47 @@ a {
 }
 
 /* ===================================
+   FAQ Section
+   =================================== */
+.faq-section {
+    padding: var(--section-padding) 0;
+    background: var(--bg-secondary);
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    padding: 1.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    transition: var(--transition-medium);
+}
+
+.faq-item:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+}
+
+.faq-question {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.faq-answer {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+/* ===================================
    Contact Section
    =================================== */
 .contact-section {

@@ -1,0 +1,8 @@
+# robots.txt for AppCanopy
+# https://appcanopy.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://appcanopy.com/sitemap.xml
