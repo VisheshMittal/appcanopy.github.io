@@ -1328,6 +1328,15 @@ a {
     font-size: 0.875rem;
 }
 
+.footer-credits-link {
+    color: var(--text-muted);
+    transition: var(--transition-fast);
+}
+
+.footer-credits-link:hover {
+    color: var(--accent-primary);
+}
+
 /* ===================================
    Animations
    =================================== */
